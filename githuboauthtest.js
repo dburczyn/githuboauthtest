@@ -23,7 +23,7 @@ $(widgetAddButton)
 $.ajax({
     // url: "https://api.github.com/repos/bocbrokeragetest/brokerage/contents/repodata",
     url: "https://github.com/login/oauth/authorize",
-    dataType: 'jsonp',
+    // dataType: 'jsonp',
     // beforeSend: function (xhr)
     // {
     //    xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
